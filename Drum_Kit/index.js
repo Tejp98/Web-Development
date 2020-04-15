@@ -10,8 +10,11 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
 
 document.addEventListener("keydown", function(event) {
 
+if(event.key == "a" || event.key == "d" || event.key == "j" || event.key == "k" || event.key == "l" || event.key == "s" || event.key == "w" ){
   makeSound(event.key);
   animation(event.key);
+}
+
 
 });
 
