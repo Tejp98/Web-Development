@@ -8,4 +8,6 @@ Projects are listed below:
 
 2. Link (Drum Kit) : https://tejp98.github.io/Drum_Kit/
 
+3. Link (Simon Game) : https://tejp98.github.io/Simon_Game/ 
+
 ...
