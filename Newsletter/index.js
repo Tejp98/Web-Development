@@ -2,6 +2,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const request = require("request");
+require('dotenv').config();
 
 const app = express();
 
@@ -36,7 +37,7 @@ app.post("/", function(req, res) {
     url: "https://us4.api.mailchimp.com/3.0/lists/dccd2886cc",
     method: "POST",
     headers: {
-      "Authorization": "tejp98 c9ea4112dbb4b969c61f48eee58ed79f-us4"
+      "Authorization": process.env.USER_ID + process.env.API_KEY
     },
     body: JSON.stringify(data)
   }
