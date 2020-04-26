@@ -1,0 +1,20 @@
+<%- include("partials/header"); -%>
+
+<h1 class="text-center">Compose</h1>
+
+<form class="" action="/compose" method="post">
+  <div class="form-group">
+
+  </div>
+  <label for="newPostTitle">Title</label><br>
+  <input type="text" class="form-control" rows="1" name="newPostTitle" placeholder="Enter Title Here" autofocus required></input>
+  <label for="newPost">Post</label><br>
+  <textarea class="form-control" rows="5" name="newPost" placeholder="Enter Post Here" required></textarea>
+  <label for="password">Password</label><br>
+  <input type="password" class="form-control" name="password" placeholder="Enter correct password to publish" required></input>
+  <input type="submit" class="btn btn-primary color" value="Publish">
+  </div>
+</form>
+
+
+<%- include("partials/footer"); -%>
