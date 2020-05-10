@@ -41,7 +41,15 @@ Made use of ejs to render frontend.
 
 6. Link (Keeper)  :  https://tejp98.github.io/Keeper/
 
-Description:  ...
+Repository link  :  https://github.com/Tejp98/Keeper
+
+
+Description: 
+
+Made a note taking website using React. Learnt about hooks, state, props, VirtualDOM, etc while doing this project.
+
+
+...
 
 
 
